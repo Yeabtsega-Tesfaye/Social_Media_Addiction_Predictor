@@ -16,6 +16,7 @@
 | WDU160614 | Getasil Setegn |
 | WDU161055 | Samrawit Molla |
 | WDU161169 | Tamenech Missa |
+| WDU160938 | Mikael Alemayehu |
 
 **Submitted to:** Ins. Kassaye A.  
 **Submission Date:** 21/08/2018 E.C  
