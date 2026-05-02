@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify # pyright: ignore[reportMissingImports]
 from utils import predict_addiction
 
 app = Flask(__name__)

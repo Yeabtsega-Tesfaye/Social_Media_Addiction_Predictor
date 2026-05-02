@@ -5,10 +5,10 @@ import seaborn as sns
 import joblib
 import os
 
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression # pyright: ignore[reportMissingModuleSource]
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.pipeline import Pipeline
+from sklearn.ensemble import RandomForestClassifier # type: ignore
+from sklearn.pipeline import Pipeline # pyright: ignore[reportMissingModuleSource]
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.model_selection import cross_val_score, StratifiedKFold, RandomizedSearchCV
 from sklearn.preprocessing import LabelEncoder
